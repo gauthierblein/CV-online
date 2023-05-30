@@ -1,0 +1,36 @@
+.sociallinks {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    width: 45px ;
+}
+
+.sociallinks li {
+    width: 150px;
+    height: 5%;
+    background-color: gray;
+    padding: 6px;
+    margin-left: -107px;
+    margin-right: 0;
+    border-radius: 3px;
+}
+
+.sociallinks a {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sociallinks li:hover {
+    margin-left: 0px;
+    transition: ease-in 300ms;
+}
+
+
+/* Mobiles */
+@media screen and (max-width: 768px) {
+    .sociallinks {
+        display: none;
+    }
+}

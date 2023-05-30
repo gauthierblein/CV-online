@@ -1,0 +1,88 @@
+.experience {
+    height: auto;
+    width: 100%;
+    background: linear-gradient(rgb(57, 56, 56), black);
+    color: white;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto; margin-right: auto;
+}
+
+.experience-container h2 {
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: solid gray 5px;
+    width: fit-content;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.experience-container p {
+    font-size: 20px;
+}
+
+.techs-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.techs {
+    width: 30%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 5px rgb(82, 74, 74);
+}
+    .techs:nth-child(1) {box-shadow: 10px 5px 5px orangered;}
+    .techs:nth-child(2) {box-shadow: 10px 5px 5px rgb(42, 82, 136);}
+    .techs:nth-child(3) {box-shadow: 10px 5px 5px yellow;}
+    .techs:nth-child(4) {box-shadow: 10px 5px 5px cyan;}
+    .techs:nth-child(5) {box-shadow: 10px 5px 5px rgb(158, 180, 193);}
+    .techs:nth-child(6) {box-shadow: 10px 5px 5px white;}
+    .techs:nth-child(7) {box-shadow: 10px 5px 5px rgb(183, 65, 147);}
+
+    .techs:hover {transform: scale(1.05); transition: 500ms}
+
+.techs img {
+    width: 35%;
+    margin-left: auto; margin-right: auto;
+}
+
+.techs p {
+    margin-top: 5%;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* Mobiles */
+@media screen and (max-width: 768px) {
+    .experience-container p {
+        font-size: 14px;
+    }
+    .techs {
+        box-shadow: 4px 2px 2px rgb(82, 74, 74);
+    }
+    .techs img {
+        width: 43%;
+    }
+    .techs p {
+        font-size: 14px;
+    }
+    .techs:nth-child(1) {box-shadow: 4px 2px 2px orangered;}
+    .techs:nth-child(2) {box-shadow: 4px 2px 2px rgb(42, 82, 136);}
+    .techs:nth-child(3) {box-shadow: 4px 2px 2px yellow;}
+    .techs:nth-child(4) {box-shadow: 4px 2px 2px cyan;}
+    .techs:nth-child(5) {box-shadow: 4px 2px 2px rgb(158, 180, 193);}
+    .techs:nth-child(6) {box-shadow: 4px 2px 2px white;}
+    .techs:nth-child(7) {box-shadow: 4px 2px 2px rgb(183, 65, 147);}
+}

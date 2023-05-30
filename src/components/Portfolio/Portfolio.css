@@ -1,0 +1,99 @@
+.portfolio {
+    height: 110vh;
+    width: 100%;
+    color: white;
+    background: linear-gradient(black, rgb(57, 56, 56));
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto; margin-right: auto;
+    justify-content: center;
+}
+
+.portfolio-container h2 {
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: solid gray 5px;
+    width: fit-content;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.portfolio-container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.projects {
+    width: 30%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 3px 3px rgb(82, 74, 74);
+}
+.projects img:hover {transform: scale(1.05); transition: 500ms}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 0;
+    padding: 5px;
+}
+
+.portfolio-btn {
+    color: white;
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 6px;
+    background: linear-gradient(to right, cyan, rgb(66, 66, 151));
+}
+    button:hover {
+    transform: scale(1.1);
+    transition: 300ms
+    }
+
+
+/* Mobiles */
+@media screen and (max-width: 768px) {
+    .portfolio {
+        height: 100vh;
+        width: 100%;
+    }
+    .portfolio-container {
+        width: 90%;
+    }
+    .portfolio-container h2 {
+        font-size: 32px;
+    }
+    .portfolio-container p {
+        font-size: 14px;
+    }
+    .projects {
+        width: 45%;
+    }
+    .btn-container {
+        gap: 1rem;
+    }
+    .portfolio-btn {
+        font-size: 14px;
+        padding: 5px;
+     }
+}

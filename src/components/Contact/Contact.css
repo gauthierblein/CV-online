@@ -1,0 +1,94 @@
+.contact {
+    height: 110vh;
+    width: 100%;
+    color: white;
+    background: linear-gradient(black, rgb(57, 56, 56));
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto; margin-right: auto;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: solid gray 5px;
+    width: fit-content;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.contact-container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+input, textarea {
+    padding: 8px;
+    background: transparent;
+    color: white;
+    border: solid 2px white;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+input:hover {
+    outline: none;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button {
+    color: white;
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 8px 8px 18px;
+    border-radius: 6px;
+    background: linear-gradient(to right, cyan, rgb(66, 66, 151));
+}
+    button:hover {
+    transform: scale(1.1);
+    transition: 300ms
+    }
+
+
+/* Mobiles */
+@media screen and (max-width: 768px) {
+    .contact {
+        height: 100vh;
+        width: 100%;
+    }
+    .contact-container {
+        width: 90%;
+    }
+    .contact-container h2 {
+        margin-top: 80px;
+    }
+    .contact-container p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    form {
+        width: 75%;
+    }
+}

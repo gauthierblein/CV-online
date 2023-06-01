@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -13,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/gauthier-blein-98a16b279/",
     },
     {
       id: 2,
@@ -40,7 +39,7 @@ const SocialLinks = () => {
           CV <BsFillPersonLinesFill size={30} /> 
         </>
       ),
-      href: "/resume.pdf",
+      href: "/BLEINGauthier_CV.pdf",
       download: true,
     },
   ];

@@ -90,6 +90,7 @@
     .heroText-container {
         width: 90%;
         margin-left: auto; margin-right: auto;
+        margin-top: 10vh;
     }
     .heroText-container h2 {
         font-size: 36px;
@@ -101,7 +102,7 @@
         margin-bottom: 20px;
     }
     .heroImg-container {
-        margin-top: 80px;
+        margin-top: 40px;
         width: 70%;
     }
 }

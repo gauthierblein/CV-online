@@ -1,6 +1,6 @@
 import React from "react";
 // Images
-import gbtrainer from "../../assets/portfolio/gbtrainer.png";
+import gbtrainer from "../../assets/portfolio/gbTrainerv2.png";
 import fitClub from "../../assets/portfolio/FitClub.png";
 import ohmyfood from "../../assets/portfolio/ohmyfood.png";
 import renaissens from "../../assets/portfolio/Renaissens.png";
@@ -13,7 +13,7 @@ const Portfolio = () => {
       id: 1,
       src: gbtrainer,
       demo: 'https://gbtrainer.eu/',
-      code: 'https://github.com/gauthierblein/CV-online',
+      code: 'https://github.com/gauthierblein/gbTrainer-v2',
       description: "HTML, CSS, React"
     },
     {

@@ -32,7 +32,7 @@
 /* Mobiles */
 @media screen and (max-width: 768px) {
     .about {
-        height: 100vh;
+        height: 80vh;
         width: 100%;
     }
     .about-container {

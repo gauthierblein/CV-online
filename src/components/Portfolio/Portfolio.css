@@ -1,5 +1,5 @@
 .portfolio {
-    height: 110vh;
+    height: auto;
     width: 100%;
     color: white;
     background: linear-gradient(black, rgb(57, 56, 56));
@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     width: 80%;
+    height: auto;
     margin-left: auto; margin-right: auto;
     justify-content: center;
 }
@@ -30,6 +31,7 @@
 
 .projects-container {
     width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -65,16 +67,26 @@
     border-radius: 6px;
     background: linear-gradient(to right, cyan, rgb(66, 66, 151));
 }
-    button:hover {
+button:hover {
     transform: scale(1.1);
     transition: 300ms
-    }
+}
+
+.description {
+    width: 100%;
+    padding: 2% 1%;
+    font-size: 12px;
+}
+.description p{
+    font-size: 14px;
+    margin: 0;
+}
 
 
 /* Mobiles */
 @media screen and (max-width: 768px) {
     .portfolio {
-        height: 100vh;
+        height: auto;
         width: 100%;
     }
     .portfolio-container {
@@ -87,13 +99,20 @@
         font-size: 14px;
     }
     .projects {
-        width: 45%;
+        width: 100%;
+    }
+    .projects-container {
+        flex-direction: column;
+        gap: 2rem
     }
     .btn-container {
-        gap: 1rem;
+        gap: 3rem;
     }
     .portfolio-btn {
         font-size: 14px;
         padding: 5px;
      }
+     .description p{
+        font-size: 12px;
+    }
 }

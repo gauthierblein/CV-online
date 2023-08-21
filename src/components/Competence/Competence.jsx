@@ -2,8 +2,12 @@ import React from "react";
 
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
+import sass from "../../assets/sass.png"
 import javascript from "../../assets/javascript.png";
 import reactImage from "../../assets/react.png";
+import reduxToolkit from "../../assets/reduxToolkit.jpeg"
+import nodeJS from "../../assets/node.png"
+import express from "../../assets/expressApp.png"
 import github from "../../assets/github.png";
 
 
@@ -23,21 +27,44 @@ const Experience = () => {
     },
     {
       id: 3,
+      src: sass,
+      title: "Sass",
+    },
+
+    {
+      id: 4,
       src: javascript,
       title: "JavaScript",
     },
     {
-      id: 4,
+      id: 5,
       src: reactImage,
       title: "React",
     },
     {
-      id: 5,
+      id: 6,
+      src: reduxToolkit,
+      title: "Redux Toolkit",
+    },
+    {
+      id: 7,
+      src: nodeJS,
+      title: "NodeJS",
+    },
+    {
+      id: 8,
+      src: express,
+      title: "Express",
+    },
+    {
+      id: 9,
       src: github,
       title: "GitHub",
     },
 
   ];
+  if (!techs) return(null)
+  else {
 
   return (
     <div name="compétences" className="experience">
@@ -57,5 +84,6 @@ const Experience = () => {
     </div>
   );
 };
+}
 
 export default Experience;

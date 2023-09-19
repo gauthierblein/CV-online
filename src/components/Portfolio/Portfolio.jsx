@@ -5,6 +5,7 @@ import fitClub from "../../assets/portfolio/FitClub.png";
 import ohmyfood from "../../assets/portfolio/ohmyfood.png";
 import renaissens from "../../assets/portfolio/Renaissens.png";
 import airdropHunter from "../../assets/portfolio/airdropHunter.png"
+import eFitShop from "../../assets/portfolio/eFitShopPic.png"
 import './Portfolio.css'
 
 const Portfolio = () => {
@@ -43,6 +44,13 @@ const Portfolio = () => {
       demo: 'https://airdrophunterfastlife.netlify.app/',
       code: 'https://github.com/gauthierblein/airdropHunter',
       description: "HTML, CSS, React, NodeJS, Express"
+    },
+    {
+      id: 6,
+      src: eFitShop,
+      demo: 'https://efitshop-gbdev.netlify.app/',
+      code: 'https://github.com/gauthierblein/eFitShop',
+      description: "CSS, React, Express, Redux Toolkit, Stripe"
     },
 
 
